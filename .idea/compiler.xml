@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhang_consumer" />
+        <module name="zhang_api" />
+        <module name="zhang_eureka_8003" />
+        <module name="zhang_eureka_8002" />
+        <module name="zhang_eureka_8001" />
+        <module name="zhang_provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhang_eureka_8001" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
