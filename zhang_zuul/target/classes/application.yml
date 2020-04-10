@@ -1,0 +1,22 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: zhang_zuul
+
+eureka:
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://zhang2:8002/eureka/,http://zhang3:8003/eureka/,http://zhang1:8001/eureka/
+  info:
+    app.name: zhang-springcloud
+    company.name: chuangli
+zuul:
+  routes:
+    mydept.serviceId: zhang-provider
+    mydept.path: /mydept/**
+  ignored-services: zhang-provider
