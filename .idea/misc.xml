@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zhang_provider_9000/pom.xml" />
+        <option value="$PROJECT_DIR$/zhang_provider_9002/pom.xml" />
+        <option value="$PROJECT_DIR$/zhang_consumer_feign/pom.xml" />
       </list>
     </option>
   </component>

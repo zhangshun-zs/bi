@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="zhang_provider_9002" />
+        <module name="zhang_provider_9000" />
+        <module name="zhang_probider_9001" />
         <module name="zhang_consumer" />
         <module name="zhang_api" />
         <module name="zhang_eureka_8003" />
         <module name="zhang_eureka_8002" />
         <module name="zhang_eureka_8001" />
-        <module name="zhang_provider" />
+        <module name="zhang_zuul" />
+        <module name="zhang_consumer_feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zhang_eureka_8001" target="1.5" />
+      <module name="zhang_eureka_8001" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
